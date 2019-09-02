@@ -1,5 +1,7 @@
 package com.barclays.treasury.implementations
 
+import java.io.File
+
 import com.barclays.treasury.traits.IhdfsFileReader
 import org.apache.spark.sql.{DataFrame, SQLContext}
 

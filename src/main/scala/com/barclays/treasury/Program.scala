@@ -4,6 +4,7 @@ import com.barclays.treasury.implementations.{FileListRetriever, ParquetFileProc
 
 object Program extends App{
 
-  val parquetFilesPaths =  FileListRetriever().retrieveFileList();
+  val parquetFilesPaths =  FileListRetriever().retrieveFileList()
   parquetFilesPaths.toArray.foreach(f => ParquetFileProcessor(f.toString).processHdfsFile())
+
 }

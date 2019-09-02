@@ -1,11 +1,12 @@
 package com.barclays.treasury.implementations
 
-import java.util
-
 import com.barclays.treasury.traits.IDataFrameModifier
 import org.apache.spark.sql.functions.{col, lit}
 import org.apache.spark.sql.types.StructType
 import org.apache.spark.sql.{DataFrame, SQLContext}
+
+import scala.collection.mutable.ListBuffer
+
 
 case class DataFrameModifier() extends IDataFrameModifier{
 
@@ -13,8 +14,8 @@ case class DataFrameModifier() extends IDataFrameModifier{
 
     val outputDataFrame = sqlContext.createDataFrame(sqlContext.emptyDataFrame.toJavaRDD, schema)
 
-    val fieldNameList = new util.ArrayList[String];
-    inputDataFrame.schema.fields.foreach(f => fieldNameList.add(f.name))
+    val fieldNameList = ListBuffer[String]();
+    inputDataFrame.schema.fields.foreach(f => fieldNameList += f.name)
 
     val expression = outputDataFrame.schema.fields.map { f =>
       if (inputDataFrame.schema.fields.contains(f)){
