@@ -12,3 +12,6 @@ libraryDependencies += "com.databricks" %% "spark-avro" % "4.0.0"
 
 // https://mvnrepository.com/artifact/com.typesafe/config
 libraryDependencies += "com.typesafe" % "config" % "1.2.1"
+
+// https://mvnrepository.com/artifact/org.scalatest/scalatest
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.1.0-RC1" % Test
