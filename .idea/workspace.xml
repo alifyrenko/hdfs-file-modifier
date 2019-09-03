@@ -2,57 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="419af280-481b-4a89-9ddd-3f748fb22bcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_10_3_1_0_RC1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_10_3_1_0_RC1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/parquet/meetup_parquet.parquet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schema/meatUpSchemaTest.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/DataFrameModifierTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/hdfs-file-modificator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hdfs-file-modificator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/csv/meat_up_test_file.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schema/meatUpSchema_init.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/DataFrameModifierAnotherTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/ParquetFileProcessor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/ParquetFileProcessor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/DataFrameModifier$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/DataFrameModifier$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/DataFrameModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/DataFrameModifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFilePersister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFilePersister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileProcessor$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileProcessor$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/default/hdfs-file-modificator$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/default/hdfs-file-modificator$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/default/hdfs-file-modificator$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/default/hdfs-file-modificator$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/default/hdfs-file-modificator_2.10/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/default/hdfs-file-modificator_2.10/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/default/hdfs-file-modificator_2.10/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/default/hdfs-file-modificator_2.10/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/default-hdfs-file-modificator_2.10-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/schema/meatUpSchemaTest.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/schema/meatUpSchemaTest.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/DataFrameModifierTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/DataFrameModifierTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/test-classes/DataFrameModifierTest$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/test-classes/DataFrameModifierTest$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/test-classes/DataFrameModifierTest$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/test-classes/DataFrameModifierTest$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/test-classes/DataFrameModifierTest$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/test-classes/DataFrameModifierTest$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/test-classes/DataFrameModifierTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/test-classes/DataFrameModifierTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,18 +43,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/traits/IFileListRetriever.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="e#38#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/AvscSchemaReader.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -110,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/DataFrameModifier.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="193">
+              <caret line="14" column="94" lean-forward="true" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
               <folding>
                 <element signature="e#47#101#0" expanded="true" />
               </folding>
@@ -119,11 +66,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/DataFrameModifierTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="374">
+              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#101#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/DataFrameModifierAnotherTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
               <folding>
                 <element signature="e#0#101#0" expanded="true" />
               </folding>
@@ -132,10 +91,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/csv/meat_up_test_file.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" selection-start-column="40" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/schema/meatUpSchemaTest.avsc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+            <state relative-caret-position="170">
+              <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -165,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/ParquetFileProcessor.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
                 <element signature="e#49#89#0" expanded="true" />
               </folding>
@@ -223,8 +191,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/DataFrameModifier.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/ParquetFileProcessor.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/test/resources/schema/meatUpSchemaTest.avsc" />
+        <option value="$PROJECT_DIR$/src/test/resources/schema/meatUpSchema_init.avsc" />
         <option value="$PROJECT_DIR$/src/test/scala/DataFrameModifierTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/resources/csv/meat_up_test_file.csv" />
+        <option value="$PROJECT_DIR$/src/test/resources/schema/meatUpSchemaTest.avsc" />
+        <option value="$PROJECT_DIR$/src/test/scala/DataFrameModifierAnotherTest.scala" />
       </list>
     </option>
   </component>
@@ -268,6 +239,13 @@
               <item name="hdfs-file-modificator" type="b2602c69:ProjectViewProjectNode" />
               <item name="hdfs-file-modificator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs-file-modificator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs-file-modificator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,7 +261,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="parquet" type="462c0819:PsiDirectoryNode" />
+              <item name="csv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hdfs-file-modificator" type="b2602c69:ProjectViewProjectNode" />
@@ -310,7 +288,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/scala/com/barclays/treasury" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/parquet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/schema" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -320,9 +298,11 @@
       <recent name="com.barclays.treasury.traits" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Learning\Scala\hdfs-file-modificator\src\test\resources\schema" />
       <recent name="C:\Learning\Scala\hdfs-file-modificator\src\test\resources\parquet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Learning\Scala\hdfs-file-modificator\src\test\resources\csv" />
       <recent name="C:\Learning\Scala\hdfs-file-modificator\src\test\resources\schema" />
       <recent name="C:\Learning\Scala\hdfs-file-modificator\src\test\resources" />
     </key>
@@ -339,22 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.DataFrameModifierTest">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.barclays.treasury.Program" />
-      <module name="hdfs-file-modificator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.barclays.treasury.implementations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.DataFrameModifierTest.DataType after casting should be StringType&#10;New field 'MyNewField' should appear with null value&#10;Field 'organizer' should disappear&#10;Initial RowCount should be equal to outcome RowCount&#10;Initial CheckSum by 'value' field should be equal to outcome CheckSum">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="hdfs-file-modifier" />
       <option name="VM_PARAMETERS" />
@@ -402,7 +367,82 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataFrameModifierTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="DataFrameModifierAnotherTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="hdfs-file-modificator" />
+      <setting name="path" value="DataFrameModifierAnotherTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="DataFrameModifierAnotherTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataFrameModifierAnotherTest.DataType after casting should be StringType&#10;New field 'MyNewField' should appear with null value&#10;Field 'organizer' should disappear&#10;Initial RowCount should be equal to outcome RowCount&#10;Initial CheckSum by 'value' field should be equal to outcome CheckSum" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="hdfs-file-modificator" />
+      <setting name="path" value="DataFrameModifierAnotherTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="DataFrameModifierAnotherTest" />
+      <setting name="testName" value="DataType after casting should be StringType&#10;New field 'MyNewField' should appear with null value&#10;Field 'organizer' should disappear&#10;Initial RowCount should be equal to outcome RowCount&#10;Initial CheckSum by 'value' field should be equal to outcome CheckSum" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataFrameModifierAnotherTest.Initial CheckSum by 'value' field should be equal to outcome CheckSum" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="hdfs-file-modificator" />
+      <setting name="path" value="DataFrameModifierAnotherTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="DataFrameModifierAnotherTest" />
+      <setting name="testName" value="Initial CheckSum by 'value' field should be equal to outcome CheckSum" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataFrameModifierAnotherTest.Initial RowCount should be equal to outcome RowCount" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="hdfs-file-modificator" />
+      <setting name="path" value="DataFrameModifierAnotherTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="DataFrameModifierAnotherTest" />
+      <setting name="testName" value="Initial RowCount should be equal to outcome RowCount" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataFrameModifierTest.DataType after casting should be StringType&#10;New field 'MyNewField' should appear with null value&#10;Field 'organizer' should disappear&#10;Initial RowCount should be equal to outcome RowCount&#10;Initial CheckSum by 'value' field should be equal to outcome CheckSum" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="hdfs-file-modificator" />
       <setting name="path" value="DataFrameModifierTest" />
       <setting name="vmparams" value="" />
@@ -414,20 +454,27 @@
       <setting name="useUiWithSbt" value="false" />
       <setting name="jrePath" value="" />
       <envs />
-      <setting name="testKind" value="Class" />
+      <setting name="testKind" value="Test name" />
       <setting name="path" value="DataFrameModifierTest" />
+      <setting name="testName" value="DataType after casting should be StringType&#10;New field 'MyNewField' should appear with null value&#10;Field 'organizer' should disappear&#10;Initial RowCount should be equal to outcome RowCount&#10;Initial CheckSum by 'value' field should be equal to outcome CheckSum" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Program" />
-      <item itemvalue="ScalaTest.DataFrameModifierTest" />
+      <item itemvalue="ScalaTest.DataFrameModifierAnotherTest" />
+      <item itemvalue="ScalaTest.DataFrameModifierAnotherTest.DataType after casting should be StringType&#10;New field 'MyNewField' should appear with null value&#10;Field 'organizer' should disappear&#10;Initial RowCount should be equal to outcome RowCount&#10;Initial CheckSum by 'value' field should be equal to outcome CheckSum" />
+      <item itemvalue="ScalaTest.DataFrameModifierAnotherTest.Initial CheckSum by 'value' field should be equal to outcome CheckSum" />
+      <item itemvalue="ScalaTest.DataFrameModifierAnotherTest.Initial RowCount should be equal to outcome RowCount" />
+      <item itemvalue="ScalaTest.DataFrameModifierTest.DataType after casting should be StringType&#10;New field 'MyNewField' should appear with null value&#10;Field 'organizer' should disappear&#10;Initial RowCount should be equal to outcome RowCount&#10;Initial CheckSum by 'value' field should be equal to outcome CheckSum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.DataFrameModifierTest" />
-        <item itemvalue="Application.Program" />
+        <item itemvalue="ScalaTest.DataFrameModifierTest.DataType after casting should be StringType&#10;New field 'MyNewField' should appear with null value&#10;Field 'organizer' should disappear&#10;Initial RowCount should be equal to outcome RowCount&#10;Initial CheckSum by 'value' field should be equal to outcome CheckSum" />
+        <item itemvalue="ScalaTest.DataFrameModifierAnotherTest.DataType after casting should be StringType&#10;New field 'MyNewField' should appear with null value&#10;Field 'organizer' should disappear&#10;Initial RowCount should be equal to outcome RowCount&#10;Initial CheckSum by 'value' field should be equal to outcome CheckSum" />
+        <item itemvalue="ScalaTest.DataFrameModifierAnotherTest.Initial RowCount should be equal to outcome RowCount" />
+        <item itemvalue="ScalaTest.DataFrameModifierAnotherTest.Initial CheckSum by 'value' field should be equal to outcome CheckSum" />
+        <item itemvalue="ScalaTest.DataFrameModifierAnotherTest" />
       </list>
     </recent_temporary>
   </component>
@@ -482,42 +529,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataFrameModifierTest - 2019.09.02 at 14h 53m 16s.xml">
-      <configuration name="DataFrameModifierTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="DataFrameModifierAnotherTest - 2019.09.02 at 18h 18m 47s.xml">
+      <configuration name="DataFrameModifierAnotherTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DataFrameModifierTest - 2019.09.02 at 14h 54m 49s.xml">
-      <configuration name="DataFrameModifierTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="DataFrameModifierAnotherTest - 2019.09.02 at 18h 19m 35s.xml">
+      <configuration name="DataFrameModifierAnotherTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DataFrameModifierTest - 2019.09.02 at 14h 55m 35s.xml">
-      <configuration name="DataFrameModifierTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="DataFrameModifierAnotherTest - 2019.09.02 at 18h 21m 52s.xml">
+      <configuration name="DataFrameModifierAnotherTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DataFrameModifierTest - 2019.09.02 at 15h 08m 33s.xml">
-      <configuration name="DataFrameModifierTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="DataFrameModifierAnotherTest - 2019.09.02 at 18h 23m 00s.xml">
+      <configuration name="DataFrameModifierAnotherTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DataFrameModifierTest - 2019.09.02 at 15h 10m 05s.xml">
-      <configuration name="DataFrameModifierTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="DataFrameModifierAnotherTest - 2019.09.02 at 18h 23m 39s.xml">
+      <configuration name="DataFrameModifierAnotherTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DataFrameModifierTest - 2019.09.02 at 15h 17m 27s.xml">
-      <configuration name="DataFrameModifierTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="DataFrameModifierAnotherTest - 2019.09.02 at 18h 25m 40s.xml">
+      <configuration name="DataFrameModifierAnotherTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DataFrameModifierTest - 2019.09.02 at 15h 18m 12s.xml">
-      <configuration name="DataFrameModifierTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="DataFrameModifierAnotherTest - 2019.09.02 at 18h 30m 39s.xml">
+      <configuration name="DataFrameModifierAnotherTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DataFrameModifierTest - 2019.09.02 at 15h 20m 08s.xml">
-      <configuration name="DataFrameModifierTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="DataFrameModifierAnotherTest - 2019.09.02 at 18h 31m 34s.xml">
+      <configuration name="DataFrameModifierAnotherTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DataFrameModifierTest - 2019.09.02 at 15h 21m 39s.xml">
-      <configuration name="DataFrameModifierTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="DataFrameModifierAnotherTest - 2019.09.02 at 18h 32m 07s.xml">
+      <configuration name="DataFrameModifierAnotherTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="DataFrameModifierTest - 2019.09.02 at 15h 23m 26s.xml">
-      <configuration name="DataFrameModifierTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="DataFrameModifierAnotherTest_Initial_RowCount_should_be_equal_to_outcome_RowCount - 2019.09.02 at 18h 44m 40s.xml">
+      <configuration name="DataFrameModifierAnotherTest.Initial RowCount should be equal to outcome RowCount" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -526,8 +573,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36402267" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33569404" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38101983" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -559,9 +606,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/test/scala/DataFrameModifierTest.scala</url>
-          <line>20</line>
+          <line>10</line>
           <properties />
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -673,39 +720,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/AvscSchemaReader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#47#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/ParquetFileProcessor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="e#49#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/schema/meatUpSchemaTest.avsc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/DataFrameModifier.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="e#47#101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -717,10 +737,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/schema/meatUpSchema_init.avsc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/AvscSchemaReader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#47#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/DataFrameModifier.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="14" column="94" lean-forward="true" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
+          <folding>
+            <element signature="e#47#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/DataFrameModifierTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="374">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/csv/meat_up_test_file.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/schema/meatUpSchemaTest.avsc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/DataFrameModifierAnotherTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
           <folding>
             <element signature="e#0#101#0" expanded="true" />
           </folding>
