@@ -25,11 +25,8 @@ case class FileProcessor() {
 
     val dataSetName = ConfigFactory.load().getString("myConfig.dataSetName")
     val tailFileFolderPath = inputFilePath.split(dataSetName)(1)
-
     val rootOutputPath = ConfigFactory.load().getString("myConfig.hdfsOutputFileDataPath")
-
     val fileName = new File(inputFilePath).getName
-
     val tailFolderPath = tailFileFolderPath.split(fileName)(0)
 
     return  s"$rootOutputPath$dataSetName$tailFolderPath"
