@@ -1,10 +1,10 @@
 package com.barclays.treasury
 
-import com.barclays.treasury.implementations.{FileListRetriever, ParquetFileProcessor}
+import com.barclays.treasury.implementations.{FileProcessor, ParquetFileProcessor}
+import com.typesafe.config.ConfigFactory
 
 object Program extends App{
 
-  val parquetFilesPaths =  FileListRetriever().retrieveFileList()
+  val parquetFilesPaths =  FileProcessor().retrieveFilePathList(ConfigFactory.load().getString("myConfig.hdfsInputFilePath"))
   parquetFilesPaths.toArray.foreach(f => ParquetFileProcessor(f.toString).processHdfsFile())
-
 }

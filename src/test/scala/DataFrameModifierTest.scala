@@ -15,6 +15,7 @@ class DataFrameModifierTest extends FlatSpec with BeforeAndAfter with Matchers{
 
   private val dataFrame = dataFrameFromCsv.withColumn("going", dataFrameFromCsv("going").cast(IntegerType))
   private val inputDataFrame = dataFrame.withColumn("value", dataFrameFromCsv("value").cast(IntegerType))
+
   private val newSchemaStructure = AvscSchemaReader("src/test/resources/schema/meatUpSchemaTest.avsc").readSchema()
   private val initialRowCount = inputDataFrame.count()
   private val initialCheckSum =  inputDataFrame.groupBy().sum("value").first.get(0)

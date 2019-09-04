@@ -1,9 +1,11 @@
 package com.barclays.treasury.implementations
 
+import java.io.File
+
 import com.typesafe.config.ConfigFactory
 import org.apache.spark.sql.SparkSession
 
-case class ParquetFileProcessor(path: String) {
+case class ParquetFileProcessor(inputFilePath: String) {
 
   def processHdfsFile(): Unit ={
 
@@ -13,15 +15,21 @@ case class ParquetFileProcessor(path: String) {
     val schemaPath = ConfigFactory.load().getString("myConfig.schemaPath")
     val newSchemaStructure = AvscSchemaReader(schemaPath).readSchema()
 
-    val inputDataFrame = ParquetFileReader(path).readHdfsFile(sqlContext)
+    val inputDataFrame = ParquetFileReader(inputFilePath).readHdfsFile(sqlContext)
 
     val outputDataFrame = DataFrameModifier().modifySchema(inputDataFrame, newSchemaStructure, sqlContext)
 
-    val hdfsFileToWritePath = ConfigFactory.load().getString("myConfig.hdfsFileToWritePath")
+    val hdfsOutputFileRawDataPath = ConfigFactory.load().getString("myConfig.hdfsOutputFileRawDataPath")
 
     inputDataFrame.show()
     outputDataFrame.show()
 
-    ParquetFilePersister(hdfsFileToWritePath).persistHdfsFile(outputDataFrame)
+    val persistedFile = ParquetFilePersister(hdfsOutputFileRawDataPath).persistHdfsFile(outputDataFrame)
+    val renamedFile = FileProcessor().renameFile(persistedFile, new File(inputFilePath).getName)
+
+    val destinationPath = FileProcessor().getOutputFilePath(inputFilePath)
+
+    FileProcessor().copyFile(renamedFile, destinationPath)
+
   }
 }

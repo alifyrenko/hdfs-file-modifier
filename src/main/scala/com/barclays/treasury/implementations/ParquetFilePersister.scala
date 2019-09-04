@@ -1,11 +1,13 @@
 package com.barclays.treasury.implementations
 
-import com.barclays.treasury.traits.IhdfsFilePersister
+import java.io.File
+
 import org.apache.spark.sql.DataFrame
 
-case class ParquetFilePersister(path: String) extends IhdfsFilePersister{
+case class ParquetFilePersister(path: String){
 
-  override def persistHdfsFile(dataFrame: DataFrame): Unit = {
-    dataFrame.write.mode("Append").parquet(path)
+   def persistHdfsFile(dataFrame: DataFrame): File = {
+    dataFrame.write.mode("Overwrite").parquet(path)
+    return FileProcessor().getLastGeneratedFile(path)
   }
 }

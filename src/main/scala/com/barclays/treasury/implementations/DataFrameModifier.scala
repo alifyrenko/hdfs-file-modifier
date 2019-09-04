@@ -1,6 +1,5 @@
 package com.barclays.treasury.implementations
 
-import com.barclays.treasury.traits.IDataFrameModifier
 import org.apache.spark.sql.functions.{col, lit}
 import org.apache.spark.sql.types.StructType
 import org.apache.spark.sql.{DataFrame, SQLContext}
@@ -8,9 +7,9 @@ import org.apache.spark.sql.{DataFrame, SQLContext}
 import scala.collection.mutable.ListBuffer
 
 
-case class DataFrameModifier() extends IDataFrameModifier{
+case class DataFrameModifier() {
 
-  override def modifySchema(inputDataFrame: DataFrame, schema: StructType, sqlContext: SQLContext): DataFrame = {
+  def modifySchema(inputDataFrame: DataFrame, schema: StructType, sqlContext: SQLContext): DataFrame = {
 
     val outputDataFrame = sqlContext.createDataFrame(sqlContext.emptyDataFrame.toJavaRDD, schema)
 
