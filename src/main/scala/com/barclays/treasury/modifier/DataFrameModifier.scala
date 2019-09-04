@@ -1,4 +1,4 @@
-package com.barclays.treasury.implementations
+package com.barclays.treasury.modifier
 
 import org.apache.spark.sql.functions.{col, lit}
 import org.apache.spark.sql.types.StructType
@@ -13,7 +13,7 @@ case class DataFrameModifier() {
 
     val outputDataFrame = sqlContext.createDataFrame(sqlContext.emptyDataFrame.toJavaRDD, schema)
 
-    val fieldNameList = ListBuffer[String]();
+    val fieldNameList = ListBuffer[String]()
     inputDataFrame.schema.fields.foreach(f => fieldNameList += f.name)
 
     val expression = outputDataFrame.schema.fields.map { f =>

@@ -1,4 +1,4 @@
-package com.barclays.treasury.implementations
+package com.barclays.treasury.modifier
 
 import java.io.File
 
@@ -8,7 +8,7 @@ import org.apache.spark.sql.types.StructType
 
 case class AvscSchemaReader(avscSchemaPath: String) {
 
-  def readSchema(): StructType = {
+   def readSchema(): StructType = {
     val schemaFile = new File(avscSchemaPath)
     val schema = new Schema.Parser().parse(schemaFile)
     return SchemaConverters.toSqlType(schema).dataType.asInstanceOf[StructType]

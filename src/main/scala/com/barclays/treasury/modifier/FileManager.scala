@@ -1,18 +1,13 @@
-package com.barclays.treasury.implementations
+package com.barclays.treasury.modifier
 
 import java.io.File
-import java.util
 
 import com.typesafe.config.ConfigFactory
 import org.apache.commons.io.FileUtils
 
 import scala.collection.mutable.ListBuffer
 
-case class FileProcessor() {
-
-  def copyFile(sourceFile: File, destinationPath: String) = {
-    FileUtils.copyFileToDirectory(sourceFile, new File(destinationPath))
-  }
+case class FileManager() {
 
   def renameFile(sourceFile: File, finalName: String): File = {
     val newFile = new File(s"${sourceFile.getParent}\\$finalName")
@@ -21,7 +16,7 @@ case class FileProcessor() {
     return newFile
   }
 
-  def getOutputFilePath (inputFilePath: String): String = {
+  def retrieveOutputFilePath(inputFilePath: String): String = {
 
     val dataSetName = ConfigFactory.load().getString("myConfig.dataSetName")
     val tailFileFolderPath = inputFilePath.split(dataSetName)(1)
@@ -32,24 +27,26 @@ case class FileProcessor() {
     return  s"$rootOutputPath$dataSetName$tailFolderPath"
   }
 
-  def retrieveFilePathList(path: String): util.Collection[File] ={
+  def retrieveFilePathList(path: String): Array[AnyRef] ={
 
     val config = ConfigFactory.load()
     val fileExtension = config.getString("myConfig.fileExtension")
 
-    return  FileUtils.listFiles(new File(path),Array(fileExtension), true)
+    val fileList = FileUtils.listFiles(new File(path),Array(fileExtension), true)
+
+    return  fileList.toArray
   }
 
   def retrieveFileList(path: String): List[File] = {
 
     val filePathsList = retrieveFilePathList(path)
-    val fileList = ListBuffer[File]();
-    filePathsList.toArray.foreach(f => fileList += new File(f.toString))
+    val fileList = ListBuffer[File]()
+    filePathsList.foreach(f => fileList += new File(f.toString))
 
     return fileList.toList
   }
 
-  def getLastGeneratedFile(path: String): File ={
+  def retrieveLastGeneratedFile(path: String): File ={
 
     val fileList = retrieveFileList(path)
     return fileList.maxBy(f => f.lastModified())

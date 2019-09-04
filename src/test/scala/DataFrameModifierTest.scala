@@ -1,4 +1,4 @@
-import com.barclays.treasury.implementations.{AvscSchemaReader, DataFrameModifier}
+import com.barclays.treasury.modifier.{AvscSchemaReader, DataFrameModifier}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.types.{IntegerType, StringType}
 import org.scalatest.{BeforeAndAfter, FlatSpec, Matchers}
