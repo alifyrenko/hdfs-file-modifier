@@ -9,7 +9,8 @@ import org.apache.spark.sql.SparkSession
 case class ParquetFileProcessor() {
 
   def modifyParquetFiles(): Unit ={
-    val parquetFilesPaths =  FileManager().retrieveFilePathList(ConfigFactory.load().getString("myConfig.hdfsInputFilePath"))
+    val hdfsInputFilePath = ConfigFactory.load().getString("myConfig.hdfsInputFilePath")
+    val parquetFilesPaths =  FileManager().retrieveFilePathList(hdfsInputFilePath)
     parquetFilesPaths.foreach(f => ParquetFileProcessor().modifyParquetFile(f.toString))
   }
 
@@ -29,11 +30,8 @@ case class ParquetFileProcessor() {
 
     outputDataFrame.write.mode("Overwrite").parquet(hdfsOutputFileRawDataPath)
     val persistedFile = FileManager().retrieveLastGeneratedFile(hdfsOutputFileRawDataPath)
-
     val renamedFile = FileManager().renameFile(persistedFile, new File(inputFilePath).getName)
-
     val destinationPath = FileManager().retrieveOutputFilePath(inputFilePath)
-
     FileUtils.copyFileToDirectory(renamedFile, new File(destinationPath))
   }
 }

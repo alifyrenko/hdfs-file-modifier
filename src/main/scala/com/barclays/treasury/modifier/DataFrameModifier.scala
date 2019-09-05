@@ -17,15 +17,9 @@ case class DataFrameModifier() {
     inputDataFrame.schema.fields.foreach(f => fieldNameList += f.name)
 
     val expression = outputDataFrame.schema.fields.map { f =>
-      if (inputDataFrame.schema.fields.contains(f)){
-        col(f.name)
-      }
-      else if(fieldNameList.contains(f.name)){
-        lit(col(f.name)).cast(f.dataType).alias(f.name)
-      }
-      else {
-        lit(null).cast(f.dataType).alias(f.name)
-      }
+      if (inputDataFrame.schema.fields.contains(f)) col(f.name)
+      else if(fieldNameList.contains(f.name)) lit(col(f.name)).cast(f.dataType).alias(f.name)
+      else lit(null).cast(f.dataType).alias(f.name)
     }
 
     return inputDataFrame.select(expression: _*).toDF()

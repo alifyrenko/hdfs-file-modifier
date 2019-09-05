@@ -2,6 +2,9 @@ package com.barclays.treasury
 
 import com.barclays.treasury.modifier.ParquetFileProcessor
 
-object Program extends App{
-  ParquetFileProcessor().modifyParquetFiles()
+object Program {
+
+  def main(args: Array[String]): Unit = {
+    ParquetFileProcessor().modifyParquetFiles()
+  }
 }

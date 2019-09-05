@@ -1,0 +1,13 @@
+{
+"namespace": "some_name_space",
+"name": "dataset_name",
+"type": "record",
+"fields": [
+	{"name": "name", "type": ["null","int"], "default": null},
+	{"name": "meetup_date", "type": ["null","string"], "default": null},
+	{"name": "going", "type": ["null","string"], "default": null},
+	{"name": "MyNewField", "type": ["null","string"], "default": null},
+	{"name": "topics", "type": ["null","string"], "default": null},
+	{"name": "value", "type": ["null","int"], "default": null}
+	]
+}

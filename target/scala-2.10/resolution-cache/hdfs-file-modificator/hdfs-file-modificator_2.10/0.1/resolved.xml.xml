@@ -4,7 +4,7 @@
 		module="hdfs-file-modificator_2.10"
 		revision="0.1"
 		status="integration"
-		publication="20190905155357"
+		publication="20190905160504"
 	>
 		<description>
 		hdfs-file-modificator

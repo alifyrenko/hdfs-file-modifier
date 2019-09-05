@@ -30,8 +30,6 @@
 [debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\FileManager$.class
 [debug] 	com\barclays\treasury\modifier
 [debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier
-[debug] 	com\barclays\treasury\Program$delayedInit$body.class
-[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\Program$delayedInit$body.class
 [debug] 	com\barclays\treasury\modifier\ParquetFileProcessor$$anonfun$modifyParquetFiles$1.class
 [debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\ParquetFileProcessor$$anonfun$modifyParquetFiles$1.class
 [debug] 	com\barclays\treasury\modifier\DataFrameModifier$$anonfun$1.class
