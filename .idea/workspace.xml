@@ -2,30 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="419af280-481b-4a89-9ddd-3f748fb22bcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/modifier/ParquetFileProcessor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/hdfs-file-modificator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hdfs-file-modificator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/Program.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/Program.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/AvscSchemaReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/modifier/AvscSchemaReader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/DataFrameModifier.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/modifier/DataFrameModifier.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/FileProcessor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/modifier/FileManager.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/ParquetFilePersister.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/ParquetFileProcessor.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/ParquetFileReader.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/DataFrameModifierTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/DataFrameModifierTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/Program$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/Program$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/Program$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/Program$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/Program$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/AvscSchemaReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/AvscSchemaReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/DataFrameModifier$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/DataFrameModifier$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/DataFrameModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/DataFrameModifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/FileProcessor$$anonfun$getLastGeneratedFile$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/FileProcessor$$anonfun$retrieveFileList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/FileProcessor$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/FileProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileProcessor$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileProcessor$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/test-classes/DataFrameModifierTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.10/test-classes/DataFrameModifierTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$15b2658a60acc519e743$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$15b2658a60acc519e743.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$15b2658a60acc519e743.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$169b8db91336a504c3f8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$169b8db91336a504c3f8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$169b8db91336a504c3f8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$191b46e19476f22a1592$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$191b46e19476f22a1592.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$191b46e19476f22a1592.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2a55d6816900504615f0$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2a55d6816900504615f0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2a55d6816900504615f0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$31846186eccb0d0808c7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$31846186eccb0d0808c7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$31846186eccb0d0808c7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$47ab098a0788a38cb3ad$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$47ab098a0788a38cb3ad.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$47ab098a0788a38cb3ad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$624119b30ba1ca27886f$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$624119b30ba1ca27886f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$624119b30ba1ca27886f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8cf93f1af2e4b11474ab$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8cf93f1af2e4b11474ab.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8cf93f1af2e4b11474ab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/META-INF/hdfs-file-modificator.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/META-INF/hdfs-file-modifier.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/AvscSchemaReader$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/AvscSchemaReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/DataFrameModifier$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/DataFrameModifier$$anonfun$modifySchema$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/DataFrameModifier$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/DataFrameModifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/FileListRetriever$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/FileListRetriever.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFilePersister$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFilePersister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileProcessor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileReader$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/implementations/ParquetFileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/traits/IDataFrameModifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/traits/IFileListRetriever.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/traits/IhdfsFilePersister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/traits/IhdfsFileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/com/barclays/treasury/traits/IhdfsSchemaReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/test-classes/META-INF/hdfs-file-modificator.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/Program.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="85">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -59,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/modifier/ParquetFileProcessor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
+            <state relative-caret-position="68">
               <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
@@ -149,46 +186,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="hdfs-file-modificator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hdfs-file-modificator" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs-file-modifier" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hdfs-file-modificator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hdfs-file-modificator" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hdfs-file-modificator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hdfs-file-modificator" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs-file-modifier" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hdfs-file-modificator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hdfs-file-modificator" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs-file-modifier" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hdfs-file-modificator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hdfs-file-modificator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hdfs-file-modificator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hdfs-file-modificator" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs-file-modifier" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hdfs-file-modificator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hdfs-file-modificator" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs-file-modifier" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
@@ -198,14 +224,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/scala/com/barclays/treasury" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/schema" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -403,7 +428,7 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="hdfs-file-modificator [file:/C:/Learning/Scala/hdfs-file-modificator/]" />
+                <option name="name" value="hdfs-file-modifier [file:/C:/Learning/Scala/projects/hdfs-file-modifier/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -417,7 +442,6 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3134489248804" />
         <entry key="$PROJECT_DIR$/build.sbt" value="1200127739" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
       </map>
@@ -475,9 +499,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -486,13 +509,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.33569404" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.33569404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38101983" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info active="true" anchor="bottom" id="sbt-shell-toolwindow" order="8" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.33569404" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3286119" />
@@ -519,16 +542,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/DataFrameModifier.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/FileListRetriever.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/ParquetFileProcessor.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/traits/IDataFrameModifier.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#38#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/traits/IDataFrameModifier.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.10/srcs/spark-sql_2.10-2.2.3-sources.jar!/org/apache/spark/sql/SparkSession.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -536,13 +550,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/traits/IhdfsFileReader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/traits/IhdfsFileReader.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.10/srcs/scalatest_2.10-3.1.0-RC1-sources.jar!/org/scalatest/tools/Runner.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-530">
@@ -578,50 +586,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/traits/IFileRetriever.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/traits/IhdfsFilePersister.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/traits/IhdfsSchemaReader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/FilePathGenerator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#48#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/FileRetriever.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <element signature="e#47#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/traits/IFileRetriever.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/traits/IhdfsFilePersister.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/traits/IhdfsSchemaReader.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/FilePathGenerator.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/FileRetriever.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -629,23 +598,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/ParquetFileReader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/ParquetFilePersister.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="53" />
-          <folding>
-            <element signature="e#47#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/ParquetFileReader.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/implementations/ParquetFilePersister.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/modifier/AvscSchemaReader.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -683,17 +637,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/modifier/ParquetFileProcessor.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/Program.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/Program.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/barclays/treasury/modifier/ParquetFileProcessor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>

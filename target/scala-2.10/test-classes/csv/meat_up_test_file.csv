@@ -1,6 +1,0 @@
-name|meetup_date|going|organizer|topics|value
-Spark-H20|2016-01-01|50|airisdata|org.apache.spark|100
-Spark-Avro|2016-01-02|800|airisdata|org.apache.spark|200
-Spark-Parquet|2016-01-03|70|airisdata|org.apache.spark|300
-Spark-|2016-01-03|100|airisdata|org.apache.spark|400
-Spark-Parq|2016-01-03|2000|airisdata|org.apache.spark|500

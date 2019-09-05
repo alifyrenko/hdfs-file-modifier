@@ -1,0 +1,45 @@
+[info] Packaging C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\hdfs-file-modificator_2.10-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	com\barclays\treasury\Program$.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\Program$.class
+[debug] 	com\barclays\treasury\Program.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\Program.class
+[debug] 	com
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com
+[debug] 	com\barclays\treasury\modifier\FileManager.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\FileManager.class
+[debug] 	com\barclays\treasury\modifier\DataFrameModifier.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\DataFrameModifier.class
+[debug] 	com\barclays\treasury\modifier\ParquetFileProcessor$.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\ParquetFileProcessor$.class
+[debug] 	com\barclays\treasury\modifier\FileManager$$anonfun$retrieveFileList$1.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\FileManager$$anonfun$retrieveFileList$1.class
+[debug] 	application.conf
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\application.conf
+[debug] 	com\barclays\treasury\modifier\DataFrameModifier$$anonfun$modifySchema$1.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\DataFrameModifier$$anonfun$modifySchema$1.class
+[debug] 	com\barclays\treasury\modifier\DataFrameModifier$.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\DataFrameModifier$.class
+[debug] 	com\barclays\treasury\modifier\FileManager$$anonfun$retrieveLastGeneratedFile$1.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\FileManager$$anonfun$retrieveLastGeneratedFile$1.class
+[debug] 	com\barclays
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays
+[debug] 	com\barclays\treasury\modifier\ParquetFileProcessor.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\ParquetFileProcessor.class
+[debug] 	com\barclays\treasury\modifier\FileManager$.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\FileManager$.class
+[debug] 	com\barclays\treasury\modifier
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier
+[debug] 	com\barclays\treasury\Program$delayedInit$body.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\Program$delayedInit$body.class
+[debug] 	com\barclays\treasury\modifier\ParquetFileProcessor$$anonfun$modifyParquetFiles$1.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\ParquetFileProcessor$$anonfun$modifyParquetFiles$1.class
+[debug] 	com\barclays\treasury\modifier\DataFrameModifier$$anonfun$1.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\DataFrameModifier$$anonfun$1.class
+[debug] 	com\barclays\treasury
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury
+[debug] 	com\barclays\treasury\modifier\AvscSchemaReader$.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\AvscSchemaReader$.class
+[debug] 	com\barclays\treasury\modifier\AvscSchemaReader.class
+[debug] 	  C:\Learning\Scala\projects\hdfs-file-modifier\target\scala-2.10\classes\com\barclays\treasury\modifier\AvscSchemaReader.class
+[info] Done packaging.
